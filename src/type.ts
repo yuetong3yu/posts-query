@@ -1,9 +1,6 @@
-export interface Post {}
-
-export interface User {
-  id: number
-  firstName: string
-  lastName: string
-  picture: string
+export interface Post {
+  userId: string
+  id: string
   title: string
+  body: string
 }

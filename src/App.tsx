@@ -1,9 +1,10 @@
-import { UserList } from './UserList'
+import { PostList } from './PostList'
 
 export const App = () => {
   return (
     <div>
-      <UserList />
+      <h1>Post List</h1>
+      <PostList />
     </div>
   )
 }
