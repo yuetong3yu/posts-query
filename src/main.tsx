@@ -1,11 +1,14 @@
 import ReactDOM from 'react-dom/client'
-import { QueryClient, QueryClientProvider,  } from 'react-query'
-import { App } from './App'
+import { QueryClient, QueryClientProvider } from 'react-query'
+import { RouterProvider } from 'react-router-dom'
+import { router } from './router'
+
+import './index.css'
 
 const queryClient = new QueryClient()
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <QueryClientProvider client={queryClient}>
-    <App />
+    <RouterProvider router={router} />
   </QueryClientProvider>
 )

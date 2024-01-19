@@ -1,4 +1,11 @@
-.loading-text {
-  font-style: italic;
-  color: red;
+.root-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tab-bar {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
 }
