@@ -1,3 +1,9 @@
+import { UserList } from './UserList'
+
 export const App = () => {
-  return <div>hello world</div>
+  return (
+    <div>
+      <UserList />
+    </div>
+  )
 }

@@ -2,6 +2,8 @@ export interface Post {}
 
 export interface User {
   id: number
-  name: string
-  email: string
+  firstName: string
+  lastName: string
+  picture: string
+  title: string
 }
