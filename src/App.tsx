@@ -12,7 +12,9 @@ export const App = () => {
           About
         </Link>
       </div>
-      <Outlet />
+      <div className="content-block">
+        <Outlet />
+      </div>
     </div>
   )
 }

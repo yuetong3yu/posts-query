@@ -9,3 +9,7 @@
   display: flex;
   gap: 8px;
 }
+
+.content-block {
+  margin-top: 20px;
+}
