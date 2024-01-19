@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Posts Query Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## description
 
-Currently, two official plugins are available:
+A Post Application without fancy UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Small CRUD project but including everything you need to develop a indie web app.
 
-## Expanding the ESLint configuration
+## v1
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- api resource from. - [https://dummyapi.io/](https://dummyapi.io/account)
 
-- Configure the top-level `parserOptions` property like this:
+### requirements
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. Fetch 10 users in the first page, show their full names.
+2. The full name of user need to be a link, when click link, go to a individual page, and the router need to be the id of the user.
+3. Load the avatar | full name | phone number | job of the user
+4. the home page should support infinite scroll to load to data
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## v2
+
+- nestjs | typeorm | postgrel
+- react | react-query
+- vite
+- supabase
+- vercel
+
+## v3
+
+- use python/django/mongodb to replace nestjs
