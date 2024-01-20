@@ -12,8 +12,8 @@ Small CRUD project but including everything you need to develop a indie web app.
 
 ### Requirements
 
-1. Fetch 10 users in the first page, show their full names.
-2. The full name of user need to be a link, when click link, go to a individual page, and the router need to be the id of the user.
+1. ✅ Fetch 10 users in the first page, show their full names.
+2. ✅ The full name of user need to be a link, when click link, go to a individual page, and the router need to be the id of the user.
 3. Load the avatar | full name | phone number | job of the user
 4. the home page should support infinite scroll to load to data
 

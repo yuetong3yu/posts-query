@@ -15,7 +15,8 @@
   margin-top: 20px;
 }
 
-.list-item {
-  /* display: block;
-  font-style:  */
+.post-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

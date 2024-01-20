@@ -15,5 +15,10 @@ export const PostItem = () => {
   if (isLoading)
     return <h2 className="loading-text">Loading Post, ID: {id}...</h2>
 
-  return <div>{data?.data.body}</div>
+  return (
+    <div className="post-body-container">
+      <h1>{data?.data.title}</h1>
+      <p>{data?.data.body}</p>
+    </div>
+  )
 }
