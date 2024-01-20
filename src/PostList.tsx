@@ -21,7 +21,7 @@ export const PostList = () => {
     <ul>
       {data?.data.map((post) => {
         return (
-          <Link to={`/post/${post.id}`}>
+          <Link to={`/post/${post.id}`} key={post.id}>
             <li>{post.title}</li>
           </Link>
         )
