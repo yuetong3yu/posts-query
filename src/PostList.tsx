@@ -2,6 +2,7 @@ import { useQuery } from 'react-query'
 
 import { Post } from './type'
 import axios from 'axios'
+import { Link } from 'react-router-dom'
 
 export const PostList = () => {
   const { isLoading, status, data } = useQuery(
@@ -19,7 +20,11 @@ export const PostList = () => {
   return (
     <ul>
       {data?.data.map((post) => {
-        return <li key={post.id}>{post.title}</li>
+        return (
+          <Link to={`/post/${post.id}`}>
+            <li>{post.title}</li>
+          </Link>
+        )
       })}
     </ul>
   )
